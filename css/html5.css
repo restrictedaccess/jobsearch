@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/*************
+
+html5.css
+
+Provides html5 tags in older browsers.
+
+See also the bit of IE specific code tat needs to be placed
+in the <head> section of each page to support old versions of IE.
+
+Note that the above code for IE doesn't work if Javascript is turned off.
+
+************************/
+
+/****************
+
+<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+	</script>
+<![endif]-->
+
+*******************/
+
+/* This is also done by normalize.css */
+article, aside, figcaption, figure, footer, header,
+hgroup, menu, nav, section {
+
+	display: block;
+}
+
+
+/********************
+Set up Classes to match HTML5 semantic tags
+****************************/
+.article {
+
+}
+
+.aside {
+
+}
+
+.figcaption {
+
+}
+
+.figure {
+
+}
+
+.footer {
+
+}
+
+.header {
+
+}
+
+
+.hgroup {
+
+}
+
+.menu {
+
+}
+
+.nav {
+
+}
+
+.section {
+
+}
+
+

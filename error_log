@@ -1,0 +1,2 @@
+[11-Feb-2013 18:59:14 Europe/London] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (28000/1045): Access denied for user 'cdn'@'localhost' (using password: YES) in /home/bobiles/jobsearch/dbmysql.php on line 41
+[11-Feb-2013 18:59:14 Europe/London] PHP Warning:  mysqli::close() [<a href='mysqli.close'>mysqli.close</a>]: Couldn't fetch mysqli in /home/bobiles/jobsearch/dbmysql.php on line 58

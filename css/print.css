@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/*************
+
+print.css
+
+Turns off all colour to save on cartridges.
+
+************************/
+body {
+  font: 100%/1.1 "Arial", "Courier", "Times New Roman", serif, sans-serif;
+  color: black;
+  background-color: white;
+  /* margin: 1em; */
+  padding: 1em;
+}
+
+
+/********************
+Link colour settings
+****************************/
+a:link {	/* unvisited link */
+  color:black;
+}
+a:visited {	/* visited link */
+  color:black;
+}
+a:hover {	/* mouse over link */
+  color:black;
+}
+a:active {	/* selected link */
+  color:black;
+}
+
+
+
+.error {
+  color:black;
+  font-weight:bold;
+}
+
+
+.emailrecipient {
+  background-color: white;
+}
